@@ -6,4 +6,4 @@ make clean
 cd src/linguist/lrelease
 
 make
-make install
+make INSTALL_ROOT="$1" install
