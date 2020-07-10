@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+qmake
+
+make clean
+cd src/linguist/lrelease
+
+make
+make install

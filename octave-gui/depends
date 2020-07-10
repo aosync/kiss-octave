@@ -1,0 +1,11 @@
+glu
+gnuplot
+lapack
+pcre
+readline
+qt5
+qt5-help	make
+qt5-linguist-lrelease	make
+autoconf 	make
+automake 	make
+libtool 	make

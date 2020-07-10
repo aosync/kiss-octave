@@ -1,0 +1,8 @@
+glu
+gnuplot
+lapack
+pcre
+readline
+autoconf 	make
+automake 	make
+libtool 	make

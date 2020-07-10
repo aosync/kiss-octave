@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# TODO enable fltk
+
+autoreconf -vif
+
+./configure \
+	--prefix="$1/usr" \
+	--localstatedir="$1/var" \
+	--sysconfdir="$1/etc" \
+	--enable-static \
+	--with-qt \
+	--with-opengl \
+	--without-portaudio \
+	--without-qscintilla \
+	--without-fltk \
+	--without-sndfile \
+	--without-qhull
+
+make
+make install
