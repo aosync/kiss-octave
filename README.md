@@ -5,7 +5,7 @@ This repository contains packages for GNU Octave and its dependencies that aren'
 
 ## Packages
 
-`octave`: minimal Octave, no gui but plotting abilities.
+`octave`: minimal Octave, no gui but plotting abilities.  
 `octave-gui`: same as above but with the Qt gui.
 
 Planned: `octave-full`
