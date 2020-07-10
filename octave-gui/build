@@ -5,9 +5,9 @@
 autoreconf -vif
 
 ./configure \
-	--prefix="$1/usr" \
-	--localstatedir="$1/var" \
-	--sysconfdir="$1/etc" \
+	--prefix="/usr" \
+	--localstatedir="/var" \
+	--sysconfdir="/etc" \
 	--enable-static \
 	--with-qt \
 	--with-opengl \
@@ -18,4 +18,4 @@ autoreconf -vif
 	--without-qhull
 
 make
-make install
+make DESTDIR="$1" install
