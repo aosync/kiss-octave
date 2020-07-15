@@ -6,9 +6,7 @@ autoreconf -vif
 	--prefix=/usr \
 	--localstatedir=/var \
 	--sysconfdir=/etc \
-	--enable-static \
-	--with-opengl \
-	--with-qt
+	--enable-static
 
 make
 make DESTDIR="$1" install

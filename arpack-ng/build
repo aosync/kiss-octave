@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+./bootstrap
+
+./configure \
+	--prefix=/usr
+
+make FFLAGS="-fallow-argument-mismatch"
+make DESTDIR="$1" install
