@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# TODO: enable fltk
-
 autoreconf -vif
 
 ./configure \
@@ -9,13 +7,7 @@ autoreconf -vif
 	--localstatedir="/var" \
 	--sysconfdir="/etc" \
 	--enable-static \
-	--with-opengl \
-	--without-portaudio \
-	--without-qt \
-	--without-qscintilla \
-	--without-fltk \
-	--without-sndfile \
-	--without-qhull
+	--with-opengl
 
 make
 make DESTDIR="$1" install

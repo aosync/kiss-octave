@@ -2,8 +2,5 @@
 
 qmake
 
-make clean
-cd src/assistant
-
 make
 make INSTALL_ROOT="$1" install

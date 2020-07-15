@@ -1,14 +1,8 @@
-autoconf 	make
-automake 	make
 bzip2
-curl
+clang
 expat
-fontconfig
 freetype-harfbuzz
 glib
-glu
-gnuplot
-lapack
 libX11
 libXau
 libXdamage
@@ -17,14 +11,9 @@ libXfixes
 libXxf86vm
 libdrm
 libpng
-libressl
-libtool 	make
 libxcb
 libxshmfence
 mesa
 ncurses
-pcre
 qt5
-qt5-tools
-readline
 zlib

@@ -1,9 +1,0 @@
-#!/bin/sh -e
-
-qmake
-
-make clean
-cd src/linguist/lrelease
-
-make
-make INSTALL_ROOT="$1" install
