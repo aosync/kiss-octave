@@ -3,9 +3,9 @@
 autoreconf -vif
 
 ./configure \
-	--prefix="/usr" \
-	--localstatedir="/var" \
-	--sysconfdir="/etc" \
+	--prefix=/usr \
+	--localstatedir=/var \
+	--sysconfdir=/etc \
 	--enable-static \
 	--with-opengl
 
